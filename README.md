@@ -40,7 +40,7 @@ You can then verify the created image id using `gcloud`:
 gcloud compute images list
 ```
 
-You'll find the image with a name like `acme-ubuntu-base-{{timestamp}}` for use in the next step.
+You'll find the image with a name like `acme-centos-7-base-{{timestamp}}` for use in the next step.
 
 Before running terraform, You may find it helpful to spin up a second terminal and run
 
